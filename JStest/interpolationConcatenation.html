@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>interpolation and concatenation</title>
+</head>
+<body>
+
+    <h2>interpolation and concatenation with Ex ::</h2>
+
+    <script>
+
+// string interpolation:
+/* String interpolation is a method of constructing strings by embedding variables or expressions inside a string literal.
+ It allows you to dynamically insert values into a string without breaking out of the string context. In JavaScript, 
+ you can achieve string interpolation using template literals, denoted by backticks (`...`).  */
+const name = 'Saddam';
+const greeting = `Hello, ${name}!`;
+console.log(greeting);
+
+
+
+// string Concatenation:
+/*  String concatenation is a method of joining two or more strings together to create a single string. In JavaScript, 
+you can concatenate strings using the + operator.  */
+const firstName = 'Rahul';
+const lastName = 'joy';
+const fullName = firstName + ' ' + lastName;
+console.log(fullName);
+
+
+
+
+
+
+
+
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+    /*  
+
+    String interpolation and concatenation are two methods used in JavaScript to work with strings. They serve different purposes but are both essential for string manipulation.
+
+String Interpolation:
+
+String interpolation is a method of constructing strings by embedding variables or expressions inside a string literal. It allows you to dynamically insert values into a string without breaking out of the string context. In JavaScript, you can achieve string interpolation using template literals, denoted by backticks (`...`).
+
+Example of string interpolation:
+
+javascript
+Copy code
+const name = 'Alice';
+const greeting = `Hello, ${name}!`; // Using string interpolation with template literals
+console.log(greeting); // Output: "Hello, Alice!"
+In this example, ${name} inside the template literal is a placeholder that gets replaced with the value of the name variable when the string is evaluated.
+
+String Concatenation:
+
+String concatenation is a method of joining two or more strings together to create a single string. In JavaScript, you can concatenate strings using the + operator.
+
+Example of string concatenation:
+
+javascript
+Copy code
+const firstName = 'John';
+const lastName = 'Doe';
+const fullName = firstName + ' ' + lastName; // Using string concatenation
+console.log(fullName); // Output: "John Doe"
+In this example, the + operator is used to concatenate the firstName and lastName variables with a space in between.
+
+Both string interpolation and concatenation are useful for building dynamic strings in JavaScript. String interpolation using template literals is often preferred for its readability and ease of use when inserting variables or expressions into strings. However, string concatenation with the + operator remains a viable option, especially when working with older JavaScript code or when compatibility with older browsers is a concern.
+
+
+    
+    */
+    
+</body>
+</html>
+

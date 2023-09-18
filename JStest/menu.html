@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weekend menu</title>
+</head>
+<body>
+
+    <h2>weekend menu::</h2>
+
+
+    <script>
+
+
+        const printMenu = (day) => {
+  switch (day) {
+    case 'monday':
+      console.log('Monday Menu: Palak Paneer');
+      break;
+    case 'tuesday':
+      console.log('Tuesday Menu: Ice-Cream');
+      break;
+    case 'wednesday':
+      console.log('Wednesday Menu: Fry rice');
+      break;
+    case 'thursday':
+      console.log('Thursday Menu: Pizza');
+      break;
+    case 'friday':
+      console.log('Friday Menu: Chips');
+      break;
+    case 'saturday':
+      console.log('Saturday Menu: water');
+      break;
+    case 'sunday':
+      console.log('Sunday Menu: Roast potato');
+      break;
+    default:
+      console.log('Invalid day');
+  }
+};
+
+    const days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday','invalid day'];
+    const randomIndex = Math.floor(Math.random() * days.length);
+    const day = days[randomIndex];
+    printMenu(day);
+
+    </script>
+    
+</body>
+</html>

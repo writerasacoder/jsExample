@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove space between </title>
+</head>
+<body>
+
+    <h2>Remove Spaces between::</h2>
+
+    <script>
+
+function removeSpaces(input) {
+
+  const WithoutSpaces = input.replace(/\s+/g, '');
+  return WithoutSpaces;
+
+};
+
+const input = 'Remove the space between us';
+console.log(input);
+console.log("after remove spaces : ",removeSpaces(input));
+
+    </script>
+    
+</body>
+</html>

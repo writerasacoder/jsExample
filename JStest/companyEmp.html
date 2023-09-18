@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>company data</title>
+</head>
+<body>
+
+    <h2>store data of company employees</h2>
+
+
+    <script>
+
+const companyEmployees = {
+
+    //emp
+  employees: [
+    {
+      id: 10000,
+      firstName: 'Saddam',
+      lastName: 'Husain',
+      position: 'Software Engineer',
+      department: 'Engineering',
+      salary: 5000,
+    },
+    
+    {
+      id: 20000,
+      firstName: 'Rahul',
+      lastName: 'Rao',
+      position: 'Marketing Manager',
+      department: 'Marketing',
+      salary: 6000,
+    },
+  ],
+
+  //depart
+  departments: {
+
+    engineering: {
+      manager: 'Raaaj',
+      location: 'Indore',
+    },
+
+    marketing: {
+      manager: 'Payal',
+      location: 'Pune',
+    },
+  },
+};
+
+console.log(companyEmployees.employees[0]);
+
+    </script>
+    
+</body>
+</html>
